@@ -66,7 +66,7 @@ Set the RS232 option in the dose calibrator to "PC" and connect it to the Raspbe
 
 Boot the Raspberry and wait for the script to load.
 
-Since it has no battery the Raspberry will ask the user to update the time whenever it its switched off. Input time as hhmm and <intro>.
+Since it has no battery the Raspberry will ask the user to update the time whenever it its switched off. Input time as hhmm.
 
 LCD will show the dose calibrator information: isotope, activity, units and real time in lower right corner.
 
