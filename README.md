@@ -1,7 +1,7 @@
 
 
 
-<<<CONTENTS>>>
+CONTENTS
 
 1. Introduction
 2. Setup
@@ -26,9 +26,13 @@ It is programmed for the following isotopes: 99mTc, 123I, 131I, 67Ga, 90Y, 51Cr,
 
 Material list:
 -Veenstra VDC-404 dose calibrator:
+
 -Raspberry pi with case. Preferred model is the Zero WH (size and price).
+
 -Micro USB 5V 2.5A power supply.
+
 -Micro SD class 10 card with at least 8 GB loaded with Raspbian.
+
 -Female to female dupont cables:
 
 -Male to female RS232 DB9 null modem cable, without handshake. Male RS232 to male USB, preferably with FTDI chipset.
@@ -36,7 +40,9 @@ OR
 -Male RS232 to TTL (only option for Raspberry Zero).
 
 -Male to male or female to female RS232 adaptors if the former connectors are not the specified gender.
+
 -USB keypad.
+
 -16x2 LCD with I2C interface.
 
 Boot up the Raspberry pi and enable serial and I2C interface in the configuration menu. 
@@ -68,8 +74,11 @@ The reference time can be changed again at will. If the keypad is not used in se
 
 NOTES:
 -The only input accepted by the Raspberry is the time to calculate the decay. Other functions must be done from the dose calibrator itself (changing isotope, units etc).
+
 -Decay is only calculated on the present day, between 00:00 and 24:00. It can calculate forward and backwards in time.
+
 -It is important to check if the real time is accurate so the calculated activity is correct. Pressing <-> allows the user to readjust the real time.
+
 -It is advisable not to turn off the Raspberry unless necessary to prevent data corruption on the SD card. Advanced users may modify log writing on the Raspberry to reduce the card wearing over time.(3)  
 
 
@@ -93,11 +102,15 @@ As a last option, change the Raspberry.
 5. References:
 
 -Veenstra VDC-404 user manual.
+
 -https://github.com/raspberrypi/documentation/blob/master/installation/README.md
+
 -https://github.com/raspberrypi/documentation/blob/master/linux/README.md
 
 (1)Use pip3 to install the following modules: pyserial, rplcd, smbus. https://help.dreamhost.com/hc/en-us/articles/115000699011-Using-pip3-to-install-Python3-modules
+
 (2)Run on boot (bashrc): http://www.knight-of-pi.org/options-for-autostarting-raspberry-pi-programs-init-d-bashrc-and-cron/
+
 (3)Read only mode: http://hallard.me/raspberry-pi-read-only/
 
 tchivato@hotmail.com
