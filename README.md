@@ -25,7 +25,8 @@ It is programmed for the following isotopes: 99mTc, 123I, 131I, 67Ga, 90Y, 51Cr,
 2 Setup:
 
 Material list:
--Veenstra VDC-404 dose calibrator:
+
+-Veenstra VDC-404 dose calibrator.
 
 -Raspberry pi with case. Preferred model is the Zero WH (size and price).
 
@@ -36,6 +37,7 @@ Material list:
 -Female to female dupont cables:
 
 -Male to female RS232 DB9 null modem cable, without handshake. Male RS232 to male USB, preferably with FTDI chipset.
+
 OR
 -Male RS232 to TTL (only option for Raspberry Zero).
 
@@ -73,6 +75,7 @@ Operator may introduce a new reference time as hhmm. The program will calculate 
 The reference time can be changed again at will. If the keypad is not used in several minutes the display is turned off until a key is pressed.
 
 NOTES:
+
 -The only input accepted by the Raspberry is the time to calculate the decay. Other functions must be done from the dose calibrator itself (changing isotope, units etc).
 
 -Decay is only calculated on the present day, between 00:00 and 24:00. It can calculate forward and backwards in time.
