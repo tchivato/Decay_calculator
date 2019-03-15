@@ -11,7 +11,7 @@ CONTENTS
 
 
 
-1. Introduction:
+1 Introduction:
 
 Veenstra's VDC-404 dose calibrator does not have a decay function, operator must use formulas or decay tables to calculate decay.
 
@@ -22,7 +22,7 @@ It is programmed for the following isotopes: 99mTc, 123I, 131I, 67Ga, 90Y, 51Cr,
 
 
 
-2. Setup:
+2 Setup:
 
 Material list:
 -Veenstra VDC-404 dose calibrator:
@@ -60,7 +60,7 @@ Set the RS232 option in the dose calibrator to "PC" and connect it to the Raspbe
 
 
 
-3. Operation:
+3 Operation:
 
 Boot the Raspberry and wait for the script to load.
 
@@ -84,7 +84,7 @@ NOTES:
 
 
 
-4. Troubleshooting:
+4 Troubleshooting:
 
 The 9 pins RS232 cable must be null modem without handshake (just pins 2 and 3 crossed over and pin 5 to ground). Most widespread cables are parallel and will not work since both the dose calibrator and the Raspberry are terminals. It is also not compatible with partial or total handshake, they will cause the dose calibrator to reset.
 
@@ -99,7 +99,7 @@ As a last option, change the Raspberry.
 
 
 
-5. References:
+5 References:
 
 -Veenstra VDC-404 user manual.
 
