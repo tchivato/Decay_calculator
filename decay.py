@@ -50,7 +50,7 @@ def initialise():
   lcd_byte(0x28,LCD_CMD) # 101000 Data length, number of lines, font size
   lcd_byte(0x01,LCD_CMD) # 000001 Clear display
 
-# Decay constant value in min^-1 for each isotope
+# Decay constant value in min^-1 for each isotope. Different dose calibrators might name isotopes differently (e.g 99mTc instead of Tc-99m)
 def decay_constant(isotope):
         if isotope==  "Tc-99m":
                 return 0.0019231651
