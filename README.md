@@ -110,7 +110,7 @@ As a last option, change the Raspberry.
 
 -https://github.com/raspberrypi/documentation/blob/master/linux/README.md
 
-(1)Use pip3 to install the following modules: pyserial, rplcd, smbus. https://help.dreamhost.com/hc/en-us/articles/115000699011-Using-pip3-to-install-Python3-modules
+(1)Use pip3 to install the following modules if they are not already available: math, os, sys, socket, fcntl, struct, smbus, serial, select, curses. https://help.dreamhost.com/hc/en-us/articles/115000699011-Using-pip3-to-install-Python3-modules
 
 (2)Run on boot (bashrc): http://www.knight-of-pi.org/options-for-autostarting-raspberry-pi-programs-init-d-bashrc-and-cron/
 
